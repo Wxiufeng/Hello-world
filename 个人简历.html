@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>个人简历</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+	<!--banner-->
+	<div class="banner">
+		<div class="container">
+			<div class="col-md-6 b-part1">
+				<img src="01.jpg">
+				<h1>韦秀锋</h1>
+				<h2>2145654655125</h2>
+			</div>
+			<div class="col-md-6 b-part2">
+				<h2>联系方式</h2>
+				<h3>QQ：1103078387</h3>
+				<h3>微信：18176992469</h3>
+				<h3>电话：18176992469</h3>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!--//banner-->
+
+	<!--about-->
+	<div class="about">
+		<div class="container">
+			<h3>个人简介</h3>
+			<label class="line"></label>
+			<img src="01.jpg">
+			<p>我是一个IT男神，由传智播客推出，专门服务于计算机相关专业的大学生及IT爱好者，可随时提供教材源代码、习题答案、免费视频课教学和就业宝典等。</p>
+            <p>个人擅长web前端开发</p>
+		</div>
+	</div>
+	<!--//about-->
+
+	<!--skills-->
+	<div class="skills">
+		<div class="container">
+			<h3>我的技能</h3>
+			<label class="line"></label>
+			<div class="col-md-6 skills-left">
+				<h3>技能简介</h3>
+				<p>能够熟练使用HTML技术，15354513212014512042504450452045424052044504504</p>
+			</div>
+			<div class="col-md-6 skills-right">
+				<div class="bar_group">
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+	<!--/skills-->
+	<script src="js/bars.js"></script>
+	<!--portfolio-->
+	<div id="portfolio" class="portfolio">
+		<div class="container">
+			<h3>作品展示</h3>
+			<label class="line"></label>
+			<div class="sap_tabs">
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul>
+						<li class="resp-tab-item"><span>全部</span></li>
+						<li class="resp-tab-item"><span>网页</span></li>
+						<li class="resp-tab-item"><span>应用</span></li>
+						<li class="resp-tab-item"><span>图片</span></li>
+					</ul>
+					<div class="clearfix"> </div>
+					<div class="resp-tabs-container">
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!--//portfolio-->
+	<!--ResponsiveTabs-->
+	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default',
+				width: 'auto', //auto或者像素值
+				fit: true   // 在容器中100%自适应
+			});
+		});
+	</script>
+	<!--//ResponsiveTabs-->
+
+	<!--contact-->
+	<div class="contact">
+		<div class="container">
+			<h3>请留下您的信息</h3>
+			<label class="line"></label>
+			<form action="#" method="post">
+			</form>
+		</div>
+	</div>
+	<!--//contact-->
+	<!--footer-->
+	<div class="footer-agileinfo">
+	</div>
+	<!--//footer-->
+	<!--common js-->
+	<script src="js/bootstrap.min.js"></script>
+	<!--//common js-->
+</body>
+
+</html>
